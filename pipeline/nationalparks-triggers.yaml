@@ -21,7 +21,8 @@ spec:
       spec:
         params:
           - name: APP_NAME
-            value: $(tt.params.git-repo-name)
+            # value: $(tt.params.git-repo-name)
+            value: nationalparks
           - name: APP_GIT_URL
             value: $(tt.params.git-repo-url)
           - name: APP_GIT_REVISION
